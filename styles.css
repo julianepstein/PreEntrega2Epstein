@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+   font-family: 'Montserrat', sans-serif;
+   padding: 0;
+   margin: 0;
+  /*   box-sizing: border-box;*/
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box-top{
+        /* anuncio antes de la nav */
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    z-index: 1000;
+    }
+
+#lupa{
+    display: flex;
+    position: fixed;
+    right: 10.5%;
+    top: 6%;
+    width: 1.5%;
+    height: 3%;
+    z-index: 1000;
+}
+
+#hamburguesa{
+    display: flex;
+    position: fixed;
+    right: 7%;
+    top: 5.5%;
+    width: 2%;
+    height: 4.5%;
+    z-index: 1000;
+}
+
+.lenguaje{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 10%;
+    height: 2%;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-style:groove;
+    border-color: lightgray;
+    z-index: 1000;
+    font-size: 1.6rem;
+
+}
+
+.lenguaje:hover{
+    text-decoration:underline 0.5px;
+    color: gray;
+
+}
+
+.logo{
+    position: fixed;
+    left: 48%;
+    margin-top: 75px;
+    width: 100px;
+    height: 75px;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+   justify-content: space-between; 
+   align-items: center;
+   flex-direction: row;
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 30px;
+    height: 15%;
+    z-index: 100;
+    background-color: #ffffff;
+
+
+}
+
+ nav ul{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+} 
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+    nav ul li a{
+        font-size: 3rem;
+        color: black;
+        margin: 103px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: montserrat, sans-serif;
+        font-variant: small-caps;
+        border: groove;
+
+
+    }
+
+    nav ul li a:hover{
+        text-decoration:underline 0.5px;
+        color: gray;
+
+    }
+
+.banner{
+    position: relative;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 15%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 20%;
+
+}
+
+#novedades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    width: 59%;
+    height: 39px;
+    font-size: 210%;
+    border-color: rgb(236, 236, 236);
+    border-style: groove;
+
+}
+
+#novedades:hover{
+    text-decoration:underline 0.5px;
+    color: gray;
+
+}
+
+h1{
+    color: lightgray;    
+    font-size: 40px;
+    margin-left: 40%;
+    width: 20%;
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+    .contenedor1 figure{
+        width: 20%;
+        border: solid 1px gray;
+        border-radius: 10px;
+        background-color: white;
+        margin: 20px 0;
+        padding: 5px 0px;
+    }
+
+        .contenedor1 figure figcaption{
+            color: gray;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .contenedor1 figure img{
+            width: 100%;
+            height: 50%;
+            
+        }
+
+        .contenedor1 figure p{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .contenedor1 figure button{
+            position: relative;
+            left: 30%;
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+            
+        }
+
+        .contenedor1 figure button:hover{
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+
+
+
+h2{ 
+    position: relative;
+    left: -10%;
+    top: 164%;
+    color: gray;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    height: 8%;
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    border-style: groove;
+
+}
+
+h2:hover{
+    text-decoration:underline 0.5px;
+    color: gray;
+}
+
+
+
+#mapa{
+    position: relative;
+    width: 100%;
+    margin-bottom: 3%;
+ 
+}
+
+h3{
+    position: relative;
+    color: gray;
+    font-weight: 200;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    height: 4%;
+    width: 15%;
+    padding: 15px;
+    text-align: center;
+    border-style: groove;
+
+}
+
+h4{
+    position: relative;
+    width: 30%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 34%;
+    color: gray;
+    font-weight: 200;
+    font-size: 50px;
+    border-style: groove;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.linea1{
+    position: relative;
+    color: gray;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.linea2{
+    position: relative;
+    color: gray;
+    font-weight: 300;
+    font-size: 20px;
+    color:rgb(149, 201, 165);
+    font-weight: bolder;
+    margin-left: 50%;
+    margin-bottom: 2%;
+    margin-top: -1.3%;
+
+}
+
+
+.flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container * {
+    box-sizing: border-box;
+  }
+  
+  .flex-outer{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flex-outer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flex-outer li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .flex-outer > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flex-outer li label,
+  .flex-outer li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  
+  .flex-outer > li > label,
+  .flex-outer li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flex-outer > li > label + *{
+    flex: 1 0 220px;
+  }
+  
+  .flex-outer li p {
+    margin: 0;
+  }
+  
+  .flex-outer li input:not([type='checkbox']),
+  .flex-outer li textarea {
+    padding: 15px;
+    border: groove;
+  }
+  
+  .flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+
+
+
+  
+footer{
+    background-color: lightgray;
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between; /* y ajustar padding a gusto */
+    align-items: center;
+}
+
+         footer svg{
+            justify-content: space-between;
+            height: 100px;
+            width: 100px;
+            fill: gray;
+            margin-right: 100px;
+     }
+                footer ul{
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                }
+                     footer ul li a{
+                            margin: 100px;
+                            text-decoration: none;
+                            font-size: 1.2rem;
+                            color: lightgrey;
+            }
+
+
+#newsletter{
+    display: flex;
+    position: relative;
+    padding: 10px 30px;
+    width: 100%;
+    height: 40%;
+}
+
+#link1{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+#link2{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+#link3{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+#link4{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#link5{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#link1:hover{
+    outline-color: gray;
+    text-decoration: underline;
+    color: gray;
+    
+  
+}
+#link2:hover{
+    outline-color: gray;
+    text-decoration: underline;
+    color: gray;
+    
+  
+}
+#link3:hover{
+    outline-color: gray;
+    text-decoration: underline;
+    color: gray;
+    
+  
+}
+#link4:hover{
+  outline-color: gray;
+  text-decoration: underline;
+  color: gray;
+  
+}
+#link5:hover{
+    outline-color: gray;
+  text-decoration: underline;
+  color: gray;
+  
+  
+}
+
+
+
